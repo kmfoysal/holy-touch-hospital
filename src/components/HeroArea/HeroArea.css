@@ -1,0 +1,40 @@
+.hero-area {
+  height: 100vh;
+  background-image: url("../../images/banner01.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.hero-area h6 {
+  font-size: 20px;
+}
+
+.hero-area h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.hero-area p {
+  width: 35%;
+  color: #cdcdcd;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.hero-area a {
+  text-decoration: none;
+  display: inline-block;
+  width: 180px;
+  height: 50px;
+  background-color: #329f29;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
