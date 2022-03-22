@@ -1,0 +1,96 @@
+.home-service {
+  padding: 80px 0;
+  background-color: #f3f4f7;
+}
+
+.home-service h6 {
+  font-size: 20px;
+  color: #019ec7;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.home-service h2 {
+  font-size: 36px;
+  margin: 20px 0;
+  color: #202020;
+  font-weight: 600;
+}
+
+.home-service a {
+  text-decoration: none;
+  display: inline-block;
+  width: 230px;
+  height: 55px;
+  background-color: #329f29;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: linear 0.4s;
+}
+
+.home-service a:hover {
+  background-color: #32bb32;
+}
+
+.home-service .img-side {
+  background-image: url("../../images/dot-bg.png");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+
+.home-service .img-side img {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  border-left: 20px solid #019ec7;
+  border-bottom: 20px solid #019ec7;
+}
+
+.home-service .service-box {
+  margin: 30px 0;
+}
+
+.home-service .service-box .service-item {
+  display: flex;
+  margin: 20px 0;
+}
+
+.home-service .service-box .service-item .img-box {
+  border: 2px solid #329f29;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.home-service .service-box .service-item img {
+  width: 50px;
+  height: 50px;
+  transition: all 1s ease;
+}
+
+.home-service .service-box .service-item .service-desc {
+  width: 70%;
+}
+
+.home-service .service-box .service-item .service-desc h5 {
+  font-weight: 600;
+}
+
+.home-service .service-box .service-item .service-desc p {
+  color: #666;
+}
+
+.home-service .service-box .service-item:hover img {
+  transform: scale(1.1);
+}

@@ -1,0 +1,74 @@
+.home-about {
+  overflow: hidden;
+}
+
+.home-about h6 {
+  font-size: 20px;
+  color: #019ec7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.home-about h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 20px 0;
+  color: #202020;
+}
+
+.home-about p {
+  width: 70%;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.home-about a {
+  text-decoration: none;
+  display: inline-block;
+  width: 200px;
+  height: 55px;
+  background-color: #329f29;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: linear 0.4s;
+}
+
+.home-about a:hover {
+  background-color: #32bb32;
+}
+
+.about-bg {
+  background-image: url("../../images/home-bg.jpg");
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: -230px;
+  transition: all 1s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.about-bg:hover {
+  transform: translateX(-20px);
+}
+
+.about-bg img {
+  margin-left: -150px;
+  transition: all 2s ease;
+  border-radius: 20px;
+}
+
+.about-bg:hover.about-bg img {
+  transform: translateX(-20px);
+}

@@ -1,12 +1,14 @@
 import './App.css';
-import HeroArea from './components/HeroArea/HeroArea';
+import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="">
       <NavBar></NavBar>
-      <HeroArea></HeroArea>
+      <Home></Home>
+      <Footer></Footer>
     </div>
   );
 }

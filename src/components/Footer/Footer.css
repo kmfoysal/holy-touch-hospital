@@ -1,0 +1,101 @@
+footer {
+  padding: 80px 0px 0 0px;
+  background-color: #edf5f7;
+}
+
+footer .left-side img {
+  margin-bottom: 20px;
+}
+
+footer .left-side h6 {
+  font-size: 20px;
+}
+
+footer .left-side p {
+  color: #667e8e;
+  width: 80%;
+}
+
+footer .left-side ul {
+  list-style: none;
+  padding: 10px 0;
+  display: flex;
+}
+
+footer .left-side ul li {
+  border: 1px solid #667e8e;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 1s ease;
+}
+
+footer .left-side ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #667e8e;
+  transition: all 1s ease;
+}
+
+footer .left-side ul li:hover {
+  border: 1px solid #019ec7;
+}
+
+footer .left-side ul li:hover a {
+  transform: scale(1.1);
+  color: #019ec7;
+}
+
+footer h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #32bb32;
+  letter-spacing: 1px;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #667e8e;
+  transition: all 0.4s ease;
+}
+
+footer ul li a:hover {
+  color: #019ec7;
+}
+
+footer ul li p {
+  color: #667e8e;
+}
+
+footer .author {
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+footer .author a {
+  text-decoration: none;
+  color: #329f29;
+  font-weight: 700;
+  transition: linear 0.4s;
+}
+
+footer .author a:hover {
+  color: #32bb32;
+}
