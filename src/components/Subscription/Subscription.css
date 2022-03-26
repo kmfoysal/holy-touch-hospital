@@ -1,0 +1,79 @@
+.subscription {
+  padding: 100px 0;
+  background-image: url("../../images/subs-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.subscription h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.subscription p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ededed;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  width: 50%;
+  background-color: #fff;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  border-radius: 50px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.input-control {
+  width: 100%;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin-left: 15px;
+}
+
+.input-control:focus {
+  box-shadow: none;
+}
+
+.subs-btn {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 12px 20px;
+  background-color: #329f29;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.subs-btn:focus {
+  box-shadow: none;
+  outline: none;
+  box-shadow: none;
+}
+
+/* Responsive CSS  */
+
+@media (max-width: 575.98px) {
+  .subscription {
+    padding: 40px 0;
+  }
+  .subscription h3 {
+    font-size: 30px;
+  }
+  .input-box {
+    width: 100%;
+  }
+  .subs-btn {
+    padding: 12px;
+  }
+}

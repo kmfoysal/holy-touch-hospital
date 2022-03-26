@@ -72,3 +72,28 @@
 .about-bg:hover.about-bg img {
   transform: translateX(-20px);
 }
+
+/* Responsive CSS  */
+
+@media (max-width: 575.98px) {
+  .home-about {
+    padding: 40px 0;
+  }
+  .home-about h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .home-about h2 {
+    font-size: 30px;
+  }
+  .home-about p {
+    width: 100%;
+  }
+  .about-bg {
+    display: none;
+  }
+  .resopnsive-row {
+    flex-direction: column;
+  }
+}

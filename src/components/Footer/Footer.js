@@ -2,6 +2,7 @@ import { faFacebookF, faInstagram, faYoutube } from '@fortawesome/free-brands-sv
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Logo from '../../images/logo-with-text.png';
 import './Footer.css';
 
@@ -14,19 +15,19 @@ const Footer = () => {
         <footer>
             <Container>
                 <Row>
-                    <Col lg={4} className='left-side'>
+                    <Col lg={4}  className='left-side'>
                         <img src={Logo} alt="logo" />
                         <p>Holy Touch Hospital provides specialty surgical services through honourable doctors with trained staff.Started on April 2018 in luxurious atmosphere.</p>
                         <h6>Follow Us On</h6>
                         <ul>
                             <li>
-                                <a href="#">{facebook}</a>
+                                <a href='www.facebook.com' target='_blank'>{facebook}</a>
                             </li>
                             <li>
-                                <a href="#">{instagram}</a>
+                                <a href='www.instagram.com' target='_blank'>{instagram}</a>
                             </li>
                             <li>
-                                <a href="#">{youtube}</a>
+                                <a href='www.youtube.com' target='_blank'>{youtube}</a>
                             </li>
                         </ul>
                     </Col>
@@ -34,22 +35,22 @@ const Footer = () => {
                         <h5>Services</h5>
                         <ul>
                             <li>
-                                <a href="#">General Sergury</a>
+                                <Link to='/services'>General Sergury</Link>
                             </li>
                             <li>
-                                <a href="#">Scissor</a>
+                                <Link to='/services' >Scissor</Link>
                             </li>
                             <li>
-                                <a href="#">Heart Operation</a>
+                                <Link to='/services' >Heart Operation</Link>
                             </li>
                             <li>
-                                <a href="#">Piles Operation</a>
+                                <Link to='/services' >Piles Operation</Link>
                             </li>
                             <li>
-                                <a href="#">Laproscopy</a>
+                                <Link to='/services' >Laproscopy</Link>
                             </li>
                             <li>
-                                <a href="#">Pharmecy</a>
+                                <Link to='/services' >Pharmecy</Link>
                             </li>
                         </ul>
                     </Col>
@@ -57,22 +58,22 @@ const Footer = () => {
                         <h5>Quick Links</h5>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <Link to='/home' >Home</Link>
                             </li>
                             <li>
-                                <a href="#">About Us</a>
+                                <Link to='/about' >About Us</Link>
                             </li>
                             <li>
-                                <a href="#">Doctors</a>
+                                <Link to='/doctors' >Doctors</Link>
                             </li>
                             <li>
-                                <a href="#">Department</a>
+                                <Link to='/depart' >Department</Link>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <Link to='/services' >Services</Link>
                             </li>
                             <li>
-                                <a href="#">Contact Us</a>
+                                <Link to='/contact' >Contact Us</Link>
                             </li>
                         </ul>
                     </Col>

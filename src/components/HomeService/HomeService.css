@@ -94,3 +94,26 @@
 .home-service .service-box .service-item:hover img {
   transform: scale(1.1);
 }
+
+/* Responsive CSS  */
+@media (max-width: 575.98px) {
+  .home-service {
+    padding: 40px 0;
+  }
+  .home-service h6 {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 0;
+  }
+  .home-service h2 {
+    font-size: 26px;
+  }
+  .home-service .img-side {
+    text-align: center;
+  }
+
+  .home-service .img-side img {
+    width: 300px;
+    height: 300px;
+  }
+}

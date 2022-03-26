@@ -99,3 +99,16 @@ footer .author a {
 footer .author a:hover {
   color: #32bb32;
 }
+
+/* responsive CSS  */
+@media (max-width: 575.98px) {
+  footer {
+    text-align: center;
+  }
+  footer .left-side p {
+    width: 100%;
+  }
+  footer .left-side ul {
+    justify-content: center;
+  }
+}

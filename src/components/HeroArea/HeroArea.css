@@ -46,3 +46,21 @@
   background-color: #32bb32;
   border: 2px solid #32bb32;
 }
+
+/* Responsive CSS  */
+
+@media (max-width: 575.98px) {
+  .hero-area h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+  .hero-area h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+
+  .hero-area p {
+    width: 90%;
+    color: #ededed;
+  }
+}

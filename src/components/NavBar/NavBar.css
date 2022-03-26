@@ -10,6 +10,20 @@
   width: 130px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-  /* color: #fff; */
+.navigation-link {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: linear 0.4s;
+}
+
+.navigation-link:hover {
+  color: #d7d7d7;
+}
+
+@media (max-width: 575.98px) {
+  .navigation-link {
+    margin: 7px 0;
+    text-align: center;
+  }
 }

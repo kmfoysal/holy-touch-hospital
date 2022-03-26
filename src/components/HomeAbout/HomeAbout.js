@@ -7,7 +7,7 @@ const HomeAbout = () => {
     return (
         <div className='home-about'>
             <Container className=''>
-                <Row>
+                <Row className='resopnsive-row'>
                     <Col className='d-flex flex-column justify-content-center vh-100'>
                         <h6>About Us</h6>
                         <h2>Whatever Your Healthcare Needs <br/> We Are Here to Help</h2>
