@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import './HeroArea.css';
+import { Link } from 'react-router-dom';
 
 const HeroArea = () => {
     return (
@@ -7,10 +8,10 @@ const HeroArea = () => {
             <Container>
                 <Row>
                     <Col className='d-flex flex-column justify-content-center vh-100'>
-                        <h6>Welcome To Holy Touch</h6>
-                        <h1>Caring for You and <br/> Your Family</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eismod incididunt ut labore et dolore.</p>
-                        <a href="#contact">Contact Now</a>
+                        <h6>হলিটাচ হসপিটালে স্বাগতম</h6>
+                        <h1>আপনার সুরক্ষার জন্য <br/> আমাদের সেবা</h1>
+                        <p>আমাদের প্রথম অভিজ্ঞতা হোক আপনার সুস্থ জীবনের সূচনা৷ আমরা আপনার যত্ন নেয়ার জন্য এখানে আছি, আমরা আপনার সুরক্ষার জন্য প্রতিশ্রুতিবদ্ধ, সবসময়।</p>
+                        <Link to="/contact">যোগাযোগ করুন</Link>
                     </Col>
                 </Row>
             </Container>

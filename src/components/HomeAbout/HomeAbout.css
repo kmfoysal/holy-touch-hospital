@@ -10,6 +10,7 @@
 }
 
 .home-about h2 {
+  width: 70%;
   font-size: 36px;
   font-weight: 600;
   margin: 20px 0;
@@ -36,7 +37,7 @@
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   transition: linear 0.4s;
 }
 
@@ -45,11 +46,11 @@
 }
 
 .about-bg {
-  background-image: url("../../images/home-bg.jpg");
+  background-image: url("../../images/whyUs1.jpg");
   background-position: right;
   background-size: cover;
   background-repeat: no-repeat;
-  margin-right: -230px;
+  margin-right: -320px;
   transition: all 1s ease;
   display: flex;
   flex-direction: row;
@@ -62,6 +63,10 @@
 .about-bg:hover {
   transform: translateX(-20px);
 }
+
+ .about-bg-wrapper{
+  max-width: 500px;
+ }
 
 .about-bg img {
   margin-left: -150px;

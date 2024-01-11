@@ -58,33 +58,38 @@
 
 .home-service .service-box .service-item {
   display: flex;
-  margin: 20px 0;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px 0;
 }
 
 .home-service .service-box .service-item .img-box {
   border: 2px solid #329f29;
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
-  padding: 30px;
+  height: 30px;
+  width: 30px;
+  /* padding: 30px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-right: 10px;
+  flex-shrink: 0;
 }
 
 .home-service .service-box .service-item img {
-  width: 50px;
-  height: 50px;
+  width: 16px;
+  /* height: 50px; */
   transition: all 1s ease;
 }
 
 .home-service .service-box .service-item .service-desc {
-  width: 70%;
+  /* width: 70%; */
 }
 
 .home-service .service-box .service-item .service-desc h5 {
-  font-weight: 600;
+  font-weight: 500;
+  margin: 0;
+  font-size: 18px;
 }
 
 .home-service .service-box .service-item .service-desc p {

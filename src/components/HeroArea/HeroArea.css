@@ -38,7 +38,7 @@
   border: 2px solid #329f29;
   border-radius: 5px;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   transition: linear 0.4s;
 }
 
